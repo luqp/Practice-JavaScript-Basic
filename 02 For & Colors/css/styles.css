@@ -1,0 +1,25 @@
+@import url('http://necolas.github.io/normalize.css/3.0.2/normalize.css');
+
+/*General*/
+body {
+  background: #FFF;
+  max-width: 980px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #8d9aa5;
+  text-align:center;
+}
+
+#color div {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px;
+  margin: 5px;
+}

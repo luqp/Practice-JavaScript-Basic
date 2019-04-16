@@ -18,3 +18,8 @@ $pdfs.on('click', function(event){
     }
 
 });
+
+$('a').each(function() {
+    const url = $(this).attr('href');
+    $(this).parent().append(` (${url})`);
+});
